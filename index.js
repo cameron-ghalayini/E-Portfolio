@@ -33,55 +33,55 @@ var granimInstance = new Granim({
     }
 });
 
-//BUTTON 1
-var modal1 = document.getElementById("modal1");
+//BUTTON for Public Health Experience (PHE)
+var modalPHE = document.getElementById("modalPHE");
 
 // Get the button that opens the modal
-var btnModal1 = document.getElementById("btn1");
+var btnModalPHE = document.getElementById("btnPHE");
 
 // Get the <span> element that closes the modal
-var spanModal1 = document.getElementsByClassName("closeModal1")[0];
+var spanModalPHE = document.getElementsByClassName("closeModalPHE")[0];
 
 // When the user clicks on the button, open the modal
-btnModal1.onclick = function() {
-  modal1.style.display = "block";
+btnPHE.onclick = function() {
+  modalPHE.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-spanModal1.onclick = function() {
-  modal1.style.display = "none";
+spanModalPHE.onclick = function() {
+  modalPHE.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal1) {
-    modal1.style.display = "none";
+  if (event.target == modalPHE) {
+    modalPHE.style.display = "none";
   }
 }
 
-//BUTTON 2
-var modal2 = document.getElementById("modal2");
+//BUTTON for Applied Practice Experience Internship (APE)
+var modalAPE = document.getElementById("modalAPE");
 
 // Get the button that opens the modal
-var btnModal2 = document.getElementById("btn2");
+var btnModalAPE = document.getElementById("btnAPE");
 
 // Get the <span> element that closes the modal
-var spanModal2 = document.getElementsByClassName("closeModal2")[0];
+var spanModalAPE = document.getElementsByClassName("closeModalAPE")[0];
 
 // When the user clicks on the button, open the modal
-btnModal2.onclick = function() {
-  modal2.style.display = "block";
+btnModalAPE.onclick = function() {
+  modalAPE.style.display = "block";
 }
 
 // When the user clicks on <span> (x), close the modal
-spanModal2.onclick = function() {
-  modal2.style.display = "none";
+spanModalAPE.onclick = function() {
+  modalAPE.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-  if (event.target == modal2) {
-    modal2.style.display = "none";
+  if (event.target == modalAPE) {
+    modalAPE.style.display = "none";
   }
 }
 
